@@ -41,7 +41,7 @@ fig1 = px.histogram(df_ch, x='aroma')
 fig2 = px.histogram(df_ch, x='aftertaste')
 col1.plotly_chart(fig1, use_container_width=True)
 col2.plotly_chart(fig2, use_container_width=True)
-​
+
 # Heroku uses the last version of python, but it conflicts with 
 # some dependencies. Low your version by adding a runtime.txt file
 # https://stackoverflow.com/questions/71712258/
