@@ -29,9 +29,9 @@ def load_data():
         apply(lambda x: 'Yes' if x>82.43 else 'No')
     df = df_interim.copy()
     return df
-​
+
 df_ch = load_data()
-​
+
 st.title('Coffee dataset explorer')
 st.subheader('Dataframe')
 st.dataframe(df_ch)
